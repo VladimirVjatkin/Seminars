@@ -25,14 +25,16 @@
 // start++;
 // }
 
-Console.Write("Tipe N = ");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Tipe N = ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-if (num>99 && num<1000)
-{
-int ed = num % 10;
-int sot = num / 100;
+// if (num>99 && num<1000)
+// {
+// int ed = num % 10;
+// int sot = num / 100;
 
-Console.WriteLine($"sum of {ed} and {sot} -> {ed+sot}");
-}
-else { Console.WriteLine("not tri znaka");}
+// Console.WriteLine($"sum of {ed} and {sot} -> {ed+sot}");
+// }
+// else { Console.WriteLine("not tri znaka");}
+
+System.Console.WriteLine();
