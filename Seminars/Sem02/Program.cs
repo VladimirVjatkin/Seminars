@@ -177,7 +177,7 @@
 // /???????????????????????????????????????????
 // /
 */
-void CheckIfDevides(int num1, int num2)
+/*void CheckIfDevides(int num1, int num2)
 {
     if(num1 % num2 == 0)
     {
@@ -199,4 +199,23 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 CheckIfDevides(num1, num2);
 
 //???????????????
+*/
 
+void CheckIfDevides(int num)
+{
+    if(num % 23 == 0 && num % 7 == 0)
+    {
+        System.Console.WriteLine($"YES, we can divide {num}/23={num/23} and {num}/7={num/7}");
+        
+    }
+    else
+    {
+        System.Console.WriteLine($"NO - not possible to divide {num}/23 && {num}/7 ");
+    }
+}
+
+
+Console.Write("Input number that we can divide 23 and 7: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+CheckIfDevides(num);
