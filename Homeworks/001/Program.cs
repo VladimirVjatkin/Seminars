@@ -125,6 +125,7 @@ class Answer {
 */
 
 //Задание 4
+/*
 using System;
 
 public class Answer
@@ -162,3 +163,23 @@ public class Answer
         PrintEvenNumbers(number);
     }
 }
+*/
+
+//Задание 2
+//Найти количество максимальных элементов в массиве
+
+int[] array = { 1,8,3,8,2,6,8,8 };
+
+int max = array[0];
+int count_maximal = 0;
+
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i] > max) max = array[i];
+}
+
+
+
+
+
+
